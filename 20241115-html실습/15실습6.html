@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+
+    <style>
+
+        h1:hover{
+            color: red;
+        }
+        a:active{
+            background-color: blue;
+        }
+        input:focus{
+            background-color: orange;
+        }
+
+        .fruits span:first-child{
+            color: purple;
+        }
+
+        .fruits h3:last-child{
+            color: aqua;
+        }
+        .fruits *:nth-child(3){
+            background-color: pink;
+        }
+        .fruits *:nth-child(3n){
+            background-color: brown; 
+            font-weight: bold;
+        }
+        .fruits *:nth-child(n+12){
+            color: red;
+        }
+        .fruits *:not(span){
+            background-color: yellow;
+            color: blue;
+        }
+
+    </style>
+
+
+
+</head>
+
+
+<body>
+    <h1>마우스가 올라가면 글자빨간색</h1>
+    <a>a태그 클릭하고 있으면 배경이 파란색</a>
+    <input type="txt" value="포커스하면 입력창이 오렌지색">
+
+    <div class="fruits">
+        <span>딸기</span>
+        <span>딸기2</span>
+        <span>딸기3</span>
+
+        <div>div딸기</div>
+        <p>망고</p>
+        <h3>사과</h3>
+        <span>딸기</span>
+        <span>딸기2</span>
+        <span>딸기3</span>
+
+        <div>div딸기</div>
+        <p>망고</p>
+        <h3>사과</h3>
+        <span>딸기</span>
+        <span>딸기2</span>
+        <span>딸기3</span>
+
+        <div>div딸기</div>
+        <p>망고</p>
+        <h3>사과</h3>
+        <span>딸기</span>
+        <span>딸기2</span>
+        <span>딸기3</span>
+
+        <div>div딸기</div>
+        <p>망고</p>
+        <h3>사과</h3>
+    </div>
+</body>

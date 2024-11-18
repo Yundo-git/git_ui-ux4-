@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <h2>
+        설문조사
+    </h2>
+    <label>이름</label><input type="text"><br>
+    <label>이메일</label> <input type="email" placeholder="example@email.com">
+    
+    <h2>
+        나이
+    </h2>
+
+    <p>
+        <input type="radio" name="age">10대 <!-- name으로 그룹을 묶는 거처럼 같이 써주면 하나만 선택이 가능하도록 된다.-->
+        <input type="radio" name="age">20대 
+        <input type="radio" name="age">30대
+        <input type="radio" >40대 <!--여러개가 선택이 가능한건 따로 설정을 안해서 그냥 클릭하는대로 되기때문이다.-->
+        <input type="radio" >50대
+        <input type="radio" >60대 이상
+
+
+    </p>
+    <h2>
+        원하는 강의(복수응답 가능합니다.)
+    </h2>
+
+    <p>
+        <input type="checkbox"> html
+        <input type="checkbox"> javascript
+        <input type="checkbox"> css
+    </p>
+
+    <textarea rows="10"cols="50">하고싶은말을 써주세요!</textarea> <!--태그안에 말고 태그와 태그사이에적으면 직접지워야하는 텍스트-->
+    <textarea rows="10"cols="50" placeholder="이건 회색으로 지워지는거"></textarea> <!--태그 안에 플레이스홀더를 쓰면 클릭시 지워지는 텍스트-->
+
+    <button>제출</button>
+
+    
+
+</body>

@@ -1,0 +1,46 @@
+
+
+
+.lion{
+    color: sienna;
+}
+p.lion{
+    background-color:  red;
+}
+
+ul > .lion{
+    background-color: greenyellow;
+}
+#tiger{
+    background-color: yellow;
+}
+
+div .lion{
+    font-weight: bold;
+}
+
+#tiger + li{
+    background-color: skyblue;
+}
+
+li.lion ~ li{
+    background-color: orange;
+}
+
+
+#naver:hover{
+    color: red;
+
+}
+li:hover{
+    color: green;
+}
+
+#btn:active{
+    color: blue;
+    background-color: green;
+}
+
+#txt:focus{
+    background-color: orange;
+}

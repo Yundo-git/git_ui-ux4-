@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./test.css">
+
+    <style>
+       
+        .stripes div{
+            background-color: navy;
+            color: white;
+        
+        }
+        .stripes *:nth-child(4n+2){
+           background-color:  yellow;
+           color:  black;
+        }
+
+        .box::after{
+            content: "빨리";
+        }
+        .box::before{
+            content: "택시";
+        }
+
+        [disabled]{
+            color : red;
+            background-color: blue;
+        }
+        [type="text"]{
+            color : red;
+            background-color: blue;
+        }
+        [type="password"]{
+            color :white;
+            background-color: black;
+        }
+
+        [type="radio"]{
+            color :white;
+            background-color: black;
+        }
+
+        [type="button"]{
+            color :white;
+            background-color: black;
+        }
+   
+    </style>
+</head>
+
+
+<body>
+    <div class="stripes">
+        <div>navy</div>
+        <div>yellow</div>
+        <div>navy</div>
+        <div>navy</div>
+        <div>navy</div>
+        <div>yellow</div>
+        <div>navy</div>
+        <div>navy</div>
+        <div>navy</div>
+        <div>yellow</div>
+        <div>navy</div>
+      </div>
+      
+      <div class="box">
+
+        안녕하세요!
+
+      </div>
+
+<br>
+
+
+      <div class="box"> 여기요!</div>
+
+        <input type="text" value="HEROPY">
+        <input type="password" value="1234">
+        <input type="text" value="ABCD" disabled>
+        <input type="radio">
+        <input type="button">
+
+
+
+      
+</body>

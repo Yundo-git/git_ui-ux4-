@@ -1,0 +1,111 @@
+.div1{
+    width: 100px;
+    height: 100px;
+
+    background-color: aquamarine;
+}
+
+.div1:hover{
+    background-color: hotpink;
+
+    width: 150px;
+    height: 150px;
+}
+
+.div1:active{
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+}
+
+input:focus{
+    background-color: hotpink;
+    color: lightblue;
+    outline-color: yellowgreen;
+}
+
+.links > a:hover {
+    background-color: coral;
+}
+
+.links >a:visited{
+    color: red;
+}
+/* 방문한놈은 빨간색으로 바꿔줘라! */
+
+
+.zoo > *{
+    background-color: green;
+    color: white;
+}
+
+/* 
+    #1. E:first-child
+    -> 요소가 첫번쨰라면 
+*/
+
+
+.zoo *:first-child{
+    background-color: red;
+}
+
+
+/* 
+    #2 E:last-child
+    요소가 마지막 요소라면
+*/
+
+
+.zoo > *:last-child{
+    background-color: black;
+
+}
+
+/* 
+    #3 E:nth-child()
+    요소가 n 번째 요소라면
+*/
+
+.zoo *:nth-child(2){
+    background-color: aqua;
+}
+
+/* 
+    #4 not(xyz)
+    xyz가 아닌요소 선택
+*/
+
+.zoo > *:not(div){
+    background-color: pink;
+}
+/* 지정된애가 더쌔기때문에 지정 안된 애들이 된다. */
+
+
+.box::before {
+    content: "택시";
+    color: red;
+  }
+  
+  .box::after {
+    content: "빨리";
+    color: blue !important;
+  }
+  
+  .box::after {
+    content: "빨리";
+    color: green;
+  }
+
+  [disabled]{
+    background-color: aquamarine;
+    color: red;
+  }
+
+  [type="password"]{
+    color: blue;
+    background-color: coral;
+  }
+
+  [placeholder]{
+    background-color: black;
+  }
