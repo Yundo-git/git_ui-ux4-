@@ -1,0 +1,116 @@
+
+
+
+@font-face {
+    font-family: 'Cafe24Behappy';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2405-3@1.1/Cafe24Behappy.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+    
+        font-family: "Bokor", system-ui;
+        font-weight: 400;
+        font-style: bold;
+    
+      
+}
+  
+.fontexample{
+    font-family: 'Cafe24Behappy', sans-serif;
+    font-size: large;
+}
+
+
+
+
+
+
+
+.box{
+
+    width: auto;
+    height: 200px;
+    background-color: orange;
+}
+
+
+
+.childbox1{
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    line-height: 100px;
+    text-align: center;
+
+
+}
+
+.childbox2{
+
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    line-height: 100px;
+    text-align: center;
+
+}
+
+.childbox3{
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    line-height: 100px;
+    text-align: center;
+}
+
+
+.box2{
+    width: calc(100vw - 90vw);
+    height: calc(100vw - 90vw);
+    background-color: blue;
+    text-align: center;
+    line-height: calc(100vw - 90vw);
+    color: white
+
+}
+
+
+.box3{
+    border-width: 8px;
+    border-style: dashed double solid dotted;
+    width: calc(10vw);
+    height: calc(10vw);
+    border-color: blue;
+}
+
+
+.box4{
+    border-width: 8px;
+    border-style: dashed double solid dotted;
+    width: calc(10vw);
+    height: calc(10vw);
+    border-color: red;
+    border-radius: 16px 12px 8px 4px;
+}
+
+
+
+
+.displayexample{
+    width: 200px;
+    height: 200px;
+
+    background-color: blue;
+}
+
+.displayexample:hover{
+    opacity: 0;
+    /* display: none; */
+
+}

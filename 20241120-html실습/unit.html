@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css단위</title>
+
+    <link rel="stylesheet" href="unit.css">
+</head>
+<body>
+    <h1>px</h1>
+
+    <div class="bax px"></div>
+    
+    <h1>%</h1>
+
+    <div class="box pct-parent">
+        <div class="pct-child"></div>
+    </div>
+
+    <h1>em</h1>
+        <!-- 1 em = 20px -->
+        <div class="box">가가
+            <!-- 2 em = 40px -->
+    <span class="em">나~나나나
+        <!-- 2 em = 나나에 곱하기 2가 된다.  -->
+        <span class="em">다!!!</span>
+    </span>
+
+    <hr>
+
+    <h2>em 주의사항</h2>
+    <div class="box">
+    <div class="case1">
+        여기는 20px
+        <span class="em-3">여기는 3em 이므로 60px</span>
+
+    </div>
+    <div class="case2">
+        여기는 10px
+        <span class="em-3">여기는 3em이므로 30px</span>
+    </div>
+</div>
+</div>
+
+
+
+
+<hr>
+
+
+<h1>rem</h1>
+<div class="box">
+    가가
+    <span class="rem">
+        <!-- 나나도 최상위 html px인 20px의 곱하기 2가 되는거고 -->
+        나나
+        <span class="rem">
+            <!-- 다다도 html px인 20px의 곱하기 2가 되는거다 그래서 나나랑 다다는 같다. -->
+            다다
+        </span>
+    </span>
+</div>
+
+<hr>
+
+<button class="btn success">success</button>
+<button class="btn error">error</button>
+
+</body>
+</html>

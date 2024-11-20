@@ -1,0 +1,72 @@
+/* 
+    웹폰트
+    구글 ㅜ엡 폰ㅌ, 눈누 웹폰트가 대중적이고
+    모든 브라우저에서 보는 폰트를 통일해야하기때매 다운이아닌 link태그에서 가져오는 방식
+    보통 기본 폰트는 body, *, root, html등 태그에 작성한다.
+*/
+
+
+/* 눈누 폰트 적용 */
+@font-face {
+    font-family: 'SF_HambakSnow';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_HambakSnow.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*@font-face
+    css에서 웹폰트를 정의하기위한 규칙
+    이를통해 웹사이트에 사용자 정의 폰트를 추가하고,
+    사용자기기에 폰트가 설치되어 있지 않아도 쓸수있게 한다.
+  */
+
+body{
+    /* 구글폰트 사용법입니다. */
+    /* font-family: "Doto", sans-serif; */
+    /* doto 라는 폰트를 사용할건데 만약 없다면 sans-serif를 써줘! 라는뜻이다. */
+    font-optical-sizing: auto;
+    /* 텍스트의 크기에 따라 글꼴 디자이너가 의도한 세부적인 모양으로 자동으로 조정해! */
+
+    font-weight: bold;
+}
+
+
+*{
+    font-family: 'SF_HambakSnow';
+}
+
+div{
+    /* 글자 색 */
+
+    color: rgb(203, 97, 97);
+
+    /* 글자크기 */
+
+    font-size: 20px;
+    /* 기본글자크기는 16이다 */
+
+    font-weight: 300;
+    /* 100단위로 설정이 가능하다~; */
+    /* font-style: italic; */
+    font-style: oblique 45deg;
+    /* font모양을 설정하는것이다 머 기울기나 이런거
+        obilque는 기울기 각도가 설정가능하다.
+    */
+
+
+
+    text-align: center;
+    /* 정렬! 가운데 왼쪽 오른쪽 / justify(양쪽정렬) */
+
+    text-decoration: overline;
+    /* 글자선! underline , 글꼴형식에 따라 조금씩 다르다 line-through는 취소선*/
+
+
+    /* line-height: 4px; */
+    /* 줄높이 */
+}
+
+h1{
+    text-align: center;
+
+}

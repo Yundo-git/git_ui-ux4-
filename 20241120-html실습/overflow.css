@@ -1,0 +1,50 @@
+body{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 브라우저가 기본적으로 여백을 제공한다 마진 패딩 같은거, 그걸없애는걸
+        브라우저 초기화 / css 리셋이라고 한다!!
+        
+        근데이거 왜함?
+        보다 일관된 디자인을 구현하기위해서 이걸 하는거다~
+        브라우저마다 기본으로 제공하는 여백스타일이 다를수있으므로
+        이를 초기화해 동일한 스타일링 환경을 만든다! 꼭하시라는 아니지만 이런것도 있다~*/
+
+
+/* 
+    overflow
+    - 컨텐츠가 너무 크거나 / 길어서 크기보다 넘치게 된다면?
+
+    - visible(default) : 벗어난 부분 표시
+    - hidden : 벗어난 부분 숨김
+    - scroll : 스크롤 생성.
+    - auto : 넘친다면 스크롤, 안넘치면 스크롤 X
+*/
+
+/* overflow-x : 수평 방향으로 넘칠 때 처리 */
+/* overflow-y : 수직 방향으로 넘칠 때 처리 */
+
+.box {
+    width: 500px;
+    height: 200px;
+    background-color: skyblue;
+  
+    /* overflow: visible; */
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* overflow: auto; */
+  
+    /* overflow-y: visible; */
+    /* overflow-y: hidden; */
+    /* overflow-x: hidden; */
+    /* overflow-x: scroll; */
+  }
+  
+  /* 텍스트의 공백과 줄바꿈(개행)을 처리하는 방식 제어하는 CSS 속성 */
+  .no-wrap {
+    /* white-space: nowrap; */
+  }
+  
+  /* white-space: normal(defalut); */
+  /* - 개행 */
