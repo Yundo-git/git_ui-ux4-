@@ -1,0 +1,92 @@
+.background{
+    width: 500px;
+    height: 300px;
+
+    color: white;
+
+    /* 배경색 */
+    /* 투명함(디폴트) */
+    /* background-color: transparent; 이게 디폴트 색넣으면 바뀜*/
+    background-color: transparent;
+
+    /* 배경 그라데이션 */
+    /* background: linear-gradient(); 이거 그라디언트 넣는거 */
+    background:  linear-gradient(blue,pink);
+    background:  linear-gradient(to right, blue ,pink);
+    background: linear-gradient(75deg, royalblue);
+
+
+}
+
+.backgroundimage{
+
+    width: 600px;
+    height: 500px;
+
+    background-color: lightcoral;
+
+    /* background-image: none; */
+    /*없앨때 */
+
+    background-image: url(../Owl_image.png);
+
+    background-repeat: repeat;
+    /* 이게 이미지 반복시키는건데 repeat로 들어가있는게 디폴드다 안적어도 적힌거다 */
+
+    /* background-repeat: repeat-x; */
+    /* 이거 수평임 */
+
+    /* background-repeat: repeat-y; */
+    /* 이거 수직임 */
+
+    /* background-repeat: no-repeat; */
+     /* 이걸써야 반복안해요 */
+
+     background-position: center;
+     /* 사진이 중앙정렬이 됩니다. */
+
+     background-position: left top;
+     /* 이거 왼쪽 위임 */
+
+     background-position: right bottom;
+     /* 이거 오른쪽 아래임 */
+
+     background-position: 30px 100px;
+     /*픽셀로도 위치 지정 가능함 */
+
+     background-position: 100px;
+     /* 하나만 적으면 수평으로만 움직인다 수직은 디폴트로 center에 위치하게된다. */
+
+     /* 배경 이미지 크기 */
+    /* 첫번째는 너비 두번째 높이 */
+
+    background-size: 30px;
+
+    background-size: auto;
+    /* 이미지의 실제 크기가 나온다 */
+
+    background-size: cover;
+    /* 더 넓은 너비에 맞추는거 */
+
+    background-size: 100% auto;
+    /* 얘는 때에 따라서 다르다 가로가 더 넓을때 맞출수있다.*/
+
+    background-size: contain;
+    /* 이거는 더 짧은 너비에 맞추는거다*/
+
+    background-size: auto 100%;
+    /* 이거도 때에 따라 다르다 세로가 더 넓을때 맞출수있다. */
+
+
+    /* 배경이미지 스크롤 */
+    overflow: scroll;
+    background-attachment: scroll;
+    /* 배경이 요소 자체를 기준으로 고정이 되고 컨텐츠(여기선 lorem)이랑 스크롤 되지않는다. */
+    background-attachment: fixed;
+    /* 배경이 뷰포트를 기준으로 고정이되고 스크롤되지않아요 콘텐츠만 스크롤된다*/
+    background-attachment: local;
+    /* 배경이 요소의 내용에 대해 고정이 되며 컨테이너의 스크롤에 맞춰서 같이 움직인다. */
+
+    
+}
+

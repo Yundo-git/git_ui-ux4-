@@ -1,0 +1,205 @@
+
+.container{
+    width: 500px;
+    height: 500px;
+
+    border: 1px solid black;
+
+    position: relative;
+}
+
+
+
+.item1{
+    width: 100px;
+    height: 100px;
+
+    background-color: red;
+    position: absolute;
+
+
+}
+
+
+.item2{
+    width: 100px;
+    height: 100px;
+
+    background-color: orange;
+    top: 30px;
+    left: 30px;
+    position: absolute;
+
+}
+
+.item3{
+    width: 100px;
+    height: 100px;
+
+    background-color: yellow;
+    top: 60px;
+    left: 60px;
+    position: absolute;
+}
+
+.item4{
+    width: 100px;
+    height: 100px;
+
+    background-color: red;
+    position: absolute;
+    z-index: 3;
+
+
+}
+
+
+.item5{
+    width: 100px;
+    height: 100px;
+
+    background-color: orange;
+    top: 30px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+
+}
+
+.item6{
+    width: 100px;
+    height: 100px;
+
+    background-color: yellow;
+    top: 60px;
+    left: 60px;
+    position: absolute;
+    z-index: 2;
+}
+
+.backgroundtest{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    background:  linear-gradient(70deg, rgb(255, 190, 19),rgb(223, 0, 173));
+
+
+
+}
+
+.img{
+    width: 260px;
+    height: 260px;
+
+    background-size: auto;
+    background-repeat: no-repeat;
+    border: 10px solid white;
+
+    background-position: center;
+
+    border-radius: 50%;
+    position: absolute ;
+    top: 10px;
+    left: 10px;
+
+    background-image: url(../Owl_image.png);
+
+
+}
+
+
+
+.positiontest{
+    border: 10px solid grey;
+
+    width: 600px;
+    height: 600px;    position: relative;
+
+
+    border-radius: 32px;
+}
+
+.redbox{
+    background-color: red;
+    width: 300px;
+    height: 300px;
+
+    border-radius: 22px 0 0 0;
+    position: relative;
+}
+
+.blackbox{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+}
+
+.orengebox{
+    width: 300px;
+    height: 300px;
+    position: relative;
+
+    background-color: orange;
+
+    left: 50%;
+    bottom: 50%;
+
+    border-radius: 0 22px 0 0 ;
+}
+
+.yellowbox{
+    background-color: yellow;
+    width: 300px;
+    height: 300px;
+
+    border-radius: 0 0 0 22px;
+    position: relative;
+
+bottom: 50%;
+
+
+
+}
+
+.greenbox{
+    background-color: green;
+    width: 300px;
+    height: 300px;
+
+    border-radius: 0 0 22px 0;
+    position: relative;
+    bottom: 100%;
+    left: 50%;
+    z-index: 9;
+
+}
+
+
+.greybox{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background-color: grey;
+    z-index: 3;
+
+}
+
+.centerbox{
+    width: 100px;
+    height: 100px;
+
+    
+    background-color: rgb(189, 189, 189);
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+    z-index: 2;
+}

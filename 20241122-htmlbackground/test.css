@@ -1,0 +1,120 @@
+.background1{
+    width: 800px;
+    height: 500px;
+
+    background-color: aqua;
+
+    background-image: url(../Owl_image.png);
+
+    background-repeat: repeat-x;
+    background-position: center;
+
+
+
+}
+
+.background2{
+    width: 800px;
+    height: 500px;
+
+    background-color: aqua;
+    background-image: url(../Owl_image.png);
+    background-repeat: no-repeat;
+    background-position: 100px 30px;
+    background-size: contain;
+
+
+
+    
+}
+
+.background3{
+    width: 800px;
+    height: 500px;
+
+    background-color: aqua;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../Owl_image.png);
+    background-position: right bottom;
+
+
+
+    
+}
+
+
+
+.container{
+
+width: 500px;
+height: 500px;
+
+border: 1px solid black;
+text-align: center;
+font-weight: 500;
+position: relative;
+
+
+}
+/* 
+.item1{
+    width: 100px;
+    height: 100px;
+
+    background-color: red;
+}
+
+.item2{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+
+
+}
+
+.item3{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+
+    
+
+} */
+
+
+.item1{
+    width: 100px;
+    height: 100px;
+
+    background-color: red;
+
+    position: relative;
+
+    left: 50px;
+    top: 30px;
+}
+
+.item2{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+
+    position: absolute;
+
+    right: 30px;
+    bottom: 100px;
+
+}
+
+.item3{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+
+    position: fixed;
+
+    right: 100px;
+    top: 100px;
+
+}

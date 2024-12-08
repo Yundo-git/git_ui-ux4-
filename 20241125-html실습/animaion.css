@@ -1,0 +1,98 @@
+.box{
+width: 100px;
+height: 100px;
+
+background-color: black;
+position: relative;
+
+animation-name: dohun;
+animation-duration: 2s;
+animation-delay: 1s;
+animation-iteration-count:infinite ;
+animation-timing-function: ease-in-out ;
+
+}
+
+@keyframes dohun {
+
+        0%{
+            left: 0px;
+
+
+        }
+
+        25%{
+            left: 200px;
+
+        }
+        50%{
+            left: 400px;
+        }
+
+        75%{left: 200px;}
+        100%{left: 0px;}
+}
+
+
+
+.bounceball1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+    background-color: black;
+    position: relative;
+
+    animation-name: bounce1;
+    animation-duration: 1s;
+    animation-iteration-count:infinite ;
+    animation-timing-function: ease-out ;
+    animation-direction: alternate;
+    left: 100px;
+
+}
+
+
+@keyframes bounce1 {
+    to{
+        top: 50px;
+    }
+    from{
+        top: 300px;
+    }
+
+
+    
+}
+
+.bounceball2{
+
+    width: 50px;
+    height: 50px;
+
+    background-color: red;
+    border-radius: 50%;
+
+    position: absolute;
+    animation: bounce2 2s infinite;
+
+
+}
+
+@keyframes bounce2 {
+
+    from,to{
+        bottom: 0px;
+        animation-timing-function: ease-out;
+    }
+    50%{
+        bottom: 300px;
+        animation-timing-function: ease-in;
+    }
+    /* to{
+        bottom: 0px;
+        animation-timing-function: ease-out;
+
+    } */
+    
+}

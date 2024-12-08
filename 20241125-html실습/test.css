@@ -1,0 +1,118 @@
+
+
+img{
+    width: 300px;
+    height:200px;
+}
+
+.container{
+    position: relative;
+    border: 1px solid black;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.img1{
+
+    position: absolute;
+    top : 40%;
+    left: 30%;
+    transform: skew(30deg,30deg);
+    /* transform: skewX(-20deg); */
+    z-index: 3;
+
+}
+.img1:hover{
+
+    /* transform: skewY(-20deg); */
+    
+    transform: skewY(0deg);
+    transition-duration: 1s;
+    z-index: 9;
+
+
+}
+
+.img2{
+
+    position: absolute;
+    top : 35%;
+    left: 40%;
+    /* transform: skewX(-20deg); */
+    transform: skew(30deg,30deg);
+    z-index: 2;
+
+}
+.img2:hover{
+
+    transform: skewY(0deg);
+    transition-duration: 1s;
+    z-index: 9;
+}
+.img3{
+
+    position: absolute;
+    top : 30%;
+    left: 50%;
+    /* transform: translate(-50%,-50%,-90%); */
+    transform: skew(30deg,30deg);
+    z-index: 1;
+
+
+}
+
+.img3:hover{
+
+    transform: skewY(0deg);
+    transition-duration: 1s;
+    z-index: 9;
+
+
+}
+
+
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+.hover1:hover{
+    width: 200px;
+    transition-duration: 1s;
+
+}
+
+.hover2:hover{
+    transform: skewX(-45deg) translate(45px);
+    /* left: 45px; */
+    transition-duration: 1s;
+
+}
+.hover3:hover{
+
+    background-color: red;
+
+    border-radius: 50%;
+    transition-duration: 1s;
+
+    transform: translateX(300px) rotate(360deg) ;
+    
+    /* transform: translateX(-70px); */
+/*  */
+}
+
+.hover4:hover{
+
+    /* transform: scale(3); */
+    transform: rotateY(360deg) scale(1.5);
+    transition-duration: 1s;
+    background-color: yellow;
+
+
+}

@@ -1,0 +1,47 @@
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-optical-sizing: auto;
+
+}
+
+
+@font-face {
+    font-family: 'SF_HambakSnow';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_HambakSnow.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media screen and (min-width : 501px) {
+
+
+    body{
+        background-color: skyblue;
+    }
+    
+}
+@media (max-width : 300px) {
+
+    body{
+        background-color: orange;
+    }
+    
+}
+
+@media (max-height : 300px) {
+
+    p{
+        font-family: 'SF_HambakSnow';
+    }
+    
+}
+
+@media screen and (min-height : 501px) {
+
+  p{
+    background-color: green;
+  }
+
+    
+}
+
