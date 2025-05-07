@@ -59,6 +59,7 @@ div{
     /* 정렬! 가운데 왼쪽 오른쪽 / justify(양쪽정렬) */
 
     text-decoration: overline;
+    /* text-decoration: underline; */
     /* 글자선! underline , 글꼴형식에 따라 조금씩 다르다 line-through는 취소선*/
 
 

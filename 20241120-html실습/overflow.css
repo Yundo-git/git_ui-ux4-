@@ -43,7 +43,7 @@ body{
   
   /* 텍스트의 공백과 줄바꿈(개행)을 처리하는 방식 제어하는 CSS 속성 */
   .no-wrap {
-    /* white-space: nowrap; */
+    white-space: nowrap;
   }
   
   /* white-space: normal(defalut); */

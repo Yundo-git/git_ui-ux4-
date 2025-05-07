@@ -1,0 +1,22 @@
+.year{
+    text-align: center;
+    color: green;
+}
+
+.weekconatiner{
+    position: relative;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+}
+
+.week{
+    /* align-items: center; */
+    font-weight: bold;
+    font-size: large;
+    /* justify-items: flex-start; */
+}
+.redday{
+    color: red;
+    
+}
